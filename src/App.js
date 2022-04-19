@@ -9,7 +9,7 @@ import reactIcon from "./images/react-icon.png";
 import "./App.css";
 import SearchIcon from "./search.svg";
 
-const API_URL = "http://omdbapi.com?apikey=ec548e59";
+const API_URL = "https://omdbapi.com?apikey=ec548e59";
 
 function App() {
   const [movies, setMovies] = useState([]);
